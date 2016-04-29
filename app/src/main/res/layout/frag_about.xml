@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_about"
+        android:layout_width="match_parent"
+        android:layout_height="30.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="相关介绍"
+        android:textSize="14.0sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:autoLink="all"
+        android:text="APP使用第三方库稍加改写而成，第三方库项目地址：\n https://github.com/jfeinstein10/SlidingMenu \n主要参考其demo以及网上使用用教程。主框架代码参考地址：\n http://blog.csdn.net/wwj_748/article/details/41355459 \n 时间主要花费在阅读源代码上，框架主要核心为activity_main xml中的FrameLayout，使用此Layout预占位，作为一个容器，当需要展示一级页面时，将此容器替换为想要展示的view。达到点击菜单换一级页的效果。切换的核心方法是MainActivity类中的switchContent方法。\n
+        应用开发中使用到了LinearLayout，GridLayout,ScrollView，string资源，color资源，style资源，自定义属性以及selector，主要组件有ImgView，TextView，EditView。没有使用Intent切换页面，所以体验不好。" />
+</LinearLayout>

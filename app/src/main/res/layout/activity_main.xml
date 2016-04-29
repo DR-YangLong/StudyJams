@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.studyjams.s1.sj50.yanglong.MainActivity"
+    android:orientation="vertical">
+    <!-- 引入公共头部布局-->
+    <include layout="@layout/main_head" />
+    <!-- 使用FrameLayout作为容器，放置切换的view  -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

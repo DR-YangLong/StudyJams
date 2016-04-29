@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        style="@style/list_style"
+        android:onClick="openDetail">
+        <ImageView
+            style="@style/list_img"
+            android:layout_height="wrap_content"
+            android:src="@drawable/head" />
+        <LinearLayout
+           style="@style/list_0_width"
+            android:layout_weight="2"
+            android:padding="1dp"
+            android:orientation="vertical">
+        <TextView
+            style="@style/list_title"
+            android:text="标题"/>
+        <TextView
+            style="@style/list_content"
+            android:text="内容c俄式内容c俄式内容c俄式内容cc俄式内c俄式内容c俄式内容c俄式内" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/list_style"
+        android:onClick="openDetail">
+        <ImageView
+            style="@style/list_img"
+            android:layout_height="wrap_content"
+            android:src="@drawable/head" />
+        <LinearLayout
+            style="@style/list_0_width"
+            android:layout_weight="2"
+            android:padding="1dp"
+            android:orientation="vertical">
+            <TextView
+                style="@style/list_title"
+                android:text="标题"/>
+            <TextView
+                style="@style/list_content"
+                android:text="内容c俄式内容c俄式内容c俄式内容cc俄式内c俄式内容c俄式内容c俄式内" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/list_style"
+        android:onClick="openDetail">
+        <ImageView
+            style="@style/list_img"
+            android:layout_height="wrap_content"
+            android:src="@drawable/head" />
+        <LinearLayout
+            style="@style/list_0_width"
+            android:layout_weight="2"
+            android:padding="1dp"
+            android:orientation="vertical">
+            <TextView
+                style="@style/list_title"
+                android:text="标题"/>
+            <TextView
+                style="@style/list_content"
+                android:text="内容c俄式内容c俄式内容c俄式内容cc俄式内c俄式内容c俄式内容c俄式内" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/list_style"
+        android:onClick="openDetail">
+        <ImageView
+            style="@style/list_img"
+            android:layout_height="wrap_content"
+            android:src="@drawable/head" />
+        <LinearLayout
+            style="@style/list_0_width"
+            android:layout_weight="2"
+            android:padding="1dp"
+            android:orientation="vertical">
+            <TextView
+                style="@style/list_title"
+                android:text="标题"/>
+            <TextView
+                style="@style/list_content"
+                android:text="内容c俄式内容c俄式内容c俄式内容cc俄式内c俄式内容c俄式内容c俄式内" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

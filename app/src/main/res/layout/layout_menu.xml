@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menu_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp" 
+        android:paddingTop="10dp">
+
+        <cn.studyjams.s1.sj50.yanglong.view.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/head"
+            app:border_color="#FFffffff"
+            app:border_width="1dp"
+            android:onClick="openUserInfoView"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28.0dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/profile_image"
+            android:gravity="center_vertical"
+            android:paddingLeft="15.0dip"
+            android:text="DR.YangLong"
+            android:textColor="@drawable/textview"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="openUserInfoView"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="@string/main_title"
+        android:textColor="@drawable/textview"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+         android:id="@+id/enrolled_list"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="@string/iEnrolled"
+        android:textColor="@drawable/textview"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+         android:id="@+id/near_list"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="@string/nearShare"
+        android:textColor="@drawable/textview"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+    <TextView
+         android:id="@+id/review_list"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="@string/reviewTitle"
+        android:textColor="@drawable/textview"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+         android:id="@+id/about_view"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="@string/aboutTitle"
+        android:textColor="@drawable/textview"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+	
+</LinearLayout>

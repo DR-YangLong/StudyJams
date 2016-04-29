@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">YangLong</string>
+    <string name="main_content">mContent</string>
+    <string name="user_name">姓名</string>
+    <string name="user_info_title">用户信息</string>
+    <string name="main_title">有干货</string>
+    <string name="iEnrolled">已报名</string>
+    <string name="nearShare">附近的分享</string>
+    <string name="shareDetail">活动详情</string>
+    <string name="reviewTitle">回顾</string>
+    <string name="aboutTitle">关于</string>
+    <string name="user_edit_tip">点击修改</string>
+    <string name="user_birthday">生日</string>
+    <string name="user_company">公司</string>
+    <string name="user_position">职位</string>
+    <string name="user_mobile">手机</string>
+    <string name="user_address">联系地址</string>
+    <string name="user_introduction">简介</string>
+    <string name="user_enroll">报名成功！</string>
+</resources>
